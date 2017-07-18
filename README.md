@@ -1,10 +1,16 @@
+##envkey-webpack-plugin##
+
 A webpack plugin that wraps [Envkey's](https://www.envkey.com) Node.js library so you can easily inject whitelisted configuration into your browser apps.
 
 All vars will be available on `process.env` in the browser.
 
 To make `process.env.NODE_ENV` available, just add it to the `permitted` whitelist (see below).
 
-Usage:
+##Install##
+
+`npm i envkey-webpack-plugin --save-dev`
+
+##Usage##
 
 ```javascript
 new EnvkeyWebpackPlugin({
