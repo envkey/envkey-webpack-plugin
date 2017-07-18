@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/envkey/envkey-webpack.git"
+    "url": "git+https://github.com/envkey/envkey-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -21,9 +21,9 @@
   "author": "Dane Schneider <dane@envkey.com> (https://www.envkey.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/envkey/envkey-webpack/issues"
+    "url": "https://github.com/envkey/envkey-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/envkey/envkey-webpack#readme",
+  "homepage": "https://github.com/envkey/envkey-webpack-plugin#readme",
   "dependencies": {
     "envkey": "^0.3.0"
   },
