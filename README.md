@@ -22,7 +22,7 @@ module.exports = {
   plugins: [
     new EnvkeyWebpackPlugin({
 
-      permitted: ["NODE_ENV", "STRIPE_PUBLISHABLE_KEY", "PUSHER_APP_KEY"], // required, specify whitelist of vars to pull from Envkey
+      permitted: ["STRIPE_PUBLISHABLE_KEY", "PUSHER_APP_KEY", "NODE_ENV"], // required, specify whitelist of vars to pull from Envkey -- you can also include "NODE_ENV" to make that available
 
       dotEnvFile: ".env", // optional, specify alternate dotenv file path like ".env.staging"
 
