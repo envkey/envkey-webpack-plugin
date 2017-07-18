@@ -24,7 +24,7 @@ module.exports = {
 
       permitted: ["STRIPE_PUBLISHABLE_KEY", "PUSHER_APP_KEY", "NODE_ENV"], // required, specify whitelist of vars to pull from Envkey -- you can also include "NODE_ENV" to make that available
 
-      dotEnvFile: ".env", // optional, specify alternate dotenv file path like ".env.staging"
+      dotEnvFile: ".env", // optional, specify alternate dotenv file path like ".env.staging" -- file should include valid ENVKEY variable
 
       define: {ANOTHER_VAR: "anotherVal"} // optional, set additional vars on `process.env`
 
