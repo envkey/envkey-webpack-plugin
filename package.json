@@ -1,6 +1,6 @@
 {
   "name": "envkey-webpack-plugin",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Use envkey as a webpack plugin.",
   "main": "index.js",
   "scripts": {
