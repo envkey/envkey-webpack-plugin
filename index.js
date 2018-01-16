@@ -21,7 +21,10 @@ function EnvkeyWebpackPlugin(opts) {
     defineParams.NODE_ENV = JSON.stringify(process.env.NODE_ENV)
   }
 
-  for (k in env) defineParams[k] = JSON.stringify(env[k])
+  defineParams = Object.keys(env).reduce(function (envConfig, key) {
+    envConfig["process.env." + key] = JSON.stringify(env[key])
+    return envConfig
+  }, defineParams)
 
-  return new webpack.DefinePlugin({"process.env": defineParams})
+  return new webpack.DefinePlugin(defineParams)
 }
