@@ -1,6 +1,6 @@
 {
   "name": "envkey-webpack-plugin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Use envkey as a webpack plugin.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/envkey/envkey-webpack-plugin#readme",
   "dependencies": {
-    "envkey": "^1.1.0"
+    "envkey": "^1.2.9"
   },
   "peerDependencies": {
     "webpack": "*"
